@@ -23,12 +23,13 @@ function Projects(props) {
         return projects.map((project, idx) => (
             <div key={idx}>
                 <h1>{project.name}</h1>
-                <img src={project.image} />
-                <a href={project.git}>
+                <img className="projectImage" src={project.image} />
+                <br/>
+                <a target='_blank' href={project.git}>
                     <button>Github</button>
                 </a>
-                <a href={project.live}>
-                    <button>live site</button>
+                <a target='_blank' href={project.live}>
+                    <button>Check it out!</button>
                 </a>
             </div>
         ));
