@@ -1,4 +1,3 @@
-
 import { useState, useEffect } from "react";
 function About(props) {
     // create state to hold about data
