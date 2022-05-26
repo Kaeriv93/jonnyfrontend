@@ -1,0 +1,110 @@
+body{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Favicon and Links */
+.favicons li{
+    display: inline;
+    color: grey;
+    font-size: 2rem;
+
+}
+.git:hover{
+    color: black;
+}
+.linkedIn:hover{
+    color: #0e76a8;
+}
+
+.navbar a{
+    text-decoration: none;
+    float: left;
+    color: grey;
+}
+
+.navbar a:hover{
+    color: black;
+}
+
+/* Contact Form */
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px; 
+    resize: vertical 
+  }
+
+input[type=submit] {
+    background-color: grey;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+ }
+
+input[type=submit]:hover {
+    background-color: #0e76a8;
+}
+
+.footer {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+
+/* About */
+.title{
+    font-size: 1.5rem;
+}
+
+.computer{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+    border-radius: 50%
+  }
+  
+.pc{
+    width: 25%;
+    float: right;
+    margin-right: 30px;
+    border-radius:50%;
+  }
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+  }
+
+.mySkills{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 2fr 2fr;
+    grid-template-areas: 
+    'about blank'
+    'list list'
+    ;
+}
+.about-skills{
+    grid-area: about;
+    line-height: 2;
+}
+
+.list-skills{
+    grid-area: list;
+}
+
+.list-skills li{
+    list-style-type: disc;
+    text-align: left;
+}
+

@@ -1,29 +1,20 @@
 import { Link } from "react-router-dom";
+import { FaLinkedin, FaGithub,  } from "react-icons/fa";
 
 function Header(props) {
   //inline style for the nav tag
-  const navStyle = {
-    display: "flex",
-    justifyContent: "space-around",
-    border: "3px solid black",
-    padding: "8px",
-    width: "90%",
-    margin: "auto",
-  };
+
 
   return (
     <header>
-      <h1>My Portfolio Page</h1>
-      <nav style={navStyle}>
+      <nav className="navbar">
         <Link to="/">
           <div>HOME</div>
         </Link>
-        <Link to="/about">
-          <div>ABOUT</div>
-        </Link>
-        <Link to="/projects">
-          <div>PROJECTS</div>
-        </Link>
+          <div className="favicons">
+            <li className='git'> <FaGithub /></li>
+            <li className="linkedIn"> <FaLinkedin/></li>
+          </div>
       </nav>
     </header>
   );
