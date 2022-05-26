@@ -39,18 +39,18 @@ function Home(props) {
             </div>
           </div>
           <div className='mySkills'>
-            <h2>My Skills</h2>
             <div className='about-skills'>
-                About Section Here
+                <h2>My Skills</h2>
+                <p>Through my studies, I've gained a solid understanding of computer science and web development concepts, and have dedicated a lot of my free time to apply these concepts to real-world scenarios and applications.</p>
             </div>
-            <div>
+            <div className='list-skills'>
               <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
+                <li>Javascript</li>
+                <li>HTML & CSS</li>
+                <li>React</li>
+                <li>Git</li>
+                <li>Python</li>
+                <li>Mongo</li>
               </ul>
             </div>
           </div>

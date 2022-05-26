@@ -83,6 +83,28 @@ input[type=submit]:hover {
     margin: 100px auto 100px auto;
     text-align: left;
     line-height: 2;
-  
-  
   }
+
+.mySkills{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 2fr 2fr;
+    grid-template-areas: 
+    'about blank'
+    'list list'
+    ;
+}
+.about-skills{
+    grid-area: about;
+    line-height: 2;
+}
+
+.list-skills{
+    grid-area: list;
+}
+
+.list-skills li{
+    list-style-type: disc;
+    text-align: left;
+}
+
