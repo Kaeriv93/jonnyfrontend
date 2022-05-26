@@ -1,4 +1,5 @@
 import { Typewriter,Cursor } from 'react-simple-typewriter'
+import { FaJsSquare } from "react-icons/fa";
 
 
 function Home(props) {
@@ -38,14 +39,16 @@ function Home(props) {
                 <p>Intel or Amd, I can build any system using modern tech. I love working with full size cases as I have more room to manage cables and making the overall build look as neat as possible.</p>
             </div>
           </div>
+
           <div className='mySkills'>
             <div className='about-skills'>
                 <h2>My Skills</h2>
                 <p>Through my studies, I've gained a solid understanding of computer science and web development concepts, and have dedicated a lot of my free time to apply these concepts to real-world scenarios and applications.</p>
             </div>
+
             <div className='list-skills'>
               <ul>
-                <li>Javascript</li>
+                <li><FaJsSquare/></li>
                 <li>HTML & CSS</li>
                 <li>React</li>
                 <li>Git</li>
@@ -53,6 +56,13 @@ function Home(props) {
                 <li>Mongo</li>
               </ul>
             </div>
+            
+            <div className='something'>
+              <h2>Something Goes Here</h2>
+              <p>Just putting some stuff here for now</p>
+              <p>To see Stuff</p>
+            </div>
+
           </div>
       </div>
     )
