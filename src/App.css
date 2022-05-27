@@ -88,7 +88,7 @@ input[type=submit]:hover {
     line-height: 2;
   }
 
-.mySkills{
+/* .mySkills{
     display: grid;
     grid-template-columns: 2fr 1fr;
     grid-template-rows: 2fr 2fr;
@@ -96,7 +96,7 @@ input[type=submit]:hover {
     'about blank'
     'list list'
     ;
-}
+} */
 .about-skills{
     grid-area: about;
     line-height: 2;

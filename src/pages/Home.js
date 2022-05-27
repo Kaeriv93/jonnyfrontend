@@ -1,5 +1,4 @@
 import { Typewriter,Cursor } from 'react-simple-typewriter'
-import { FaJsSquare } from "react-icons/fa";
 
 
 function Home(props) {
@@ -48,7 +47,7 @@ function Home(props) {
 
             <div className='list-skills'>
               <ul>
-                <li><FaJsSquare/></li>
+                <li>Javascript</li>
                 <li>HTML & CSS</li>
                 <li>React</li>
                 <li>Git</li>
