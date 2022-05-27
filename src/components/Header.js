@@ -9,11 +9,11 @@ function Header(props) {
     <header>
       <nav className="navbar">
         <Link to="/">
-          <div>HOME</div>
+          <div className="home">HOME</div>
         </Link>
           <div className="favicons">
-            <li className='git'> <FaGithub /></li>
-            <li className="linkedIn"> <FaLinkedin/></li>
+            <li><a href='https://github.com/Kaeriv93' target='_blank' rel="noopener noreferrer" className='git'><FaGithub/></a></li>
+            <li><a href='https://www.linkedin.com/in/vireak-san-472a25227/' target='_blank' rel="noopener noreferrer" className='linkedIn'><FaLinkedin/></a></li>
           </div>
       </nav>
     </header>

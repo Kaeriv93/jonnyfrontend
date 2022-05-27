@@ -12,17 +12,20 @@ body{
     font-size: 2rem;
 
 }
-.git:hover{
+.git :hover{
     color: black;
 }
-.linkedIn:hover{
+.linkedIn :hover{
     color: #0e76a8;
 }
 
 .navbar a{
     text-decoration: none;
-    float: left;
     color: grey;
+}
+
+.home{
+    float: left;
 }
 
 .navbar a:hover{
