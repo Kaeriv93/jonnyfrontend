@@ -1,7 +1,7 @@
 function Footer(props) {
     return(
       <div className="footer">
-        <form>
+        {/* <form>
           <label>First Name</label>
           <input type = 'text' id='fname' name ='firstname' placeholder="Your name.."/>
           <label>Last Name</label>
@@ -9,7 +9,7 @@ function Footer(props) {
           <label>Subject</label>
           <textarea id='subject' name='subject' placeholder="Write something.."/>
           <input type="submit" value="Submit"/>
-        </form>
+        </form> */}
       </div>
     )
   }
