@@ -1,11 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
 body{
     display: flex;
     justify-content: center;
     text-align: center;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    color: #4C4C4C;
 }
 
 /* Favicon and Links */
+
 .favicons li{
     display: inline;
     color: grey;
@@ -22,15 +26,52 @@ body{
 .navbar a{
     text-decoration: none;
     color: grey;
+    font-size: 1.5rem;
 }
 
-.home{
-    float: left;
+.home a{
+    font-weight: 700;
+    color: #2E5A88;
+    padding: 10px;
 }
 
 .navbar a:hover{
     color: black;
 }
 
+.noun{
+    color:#2E5A88;
+}
 
+.about p{
+    width: 50%;
+    margin: 0 auto;
+    line-height: 2;
+}
 
+/* Skills */
+#skills li{
+    list-style: none;
+    padding: 5px;
+    display: inline;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+#skills button{
+    cursor: pointer;
+    background-color: white;
+    margin: .5em;
+    padding: 10px 15px;
+    box-shadow: 2px 2px 0 0 #2E5A88;
+    border-color: #2E5A88;
+    color: #2E5A88;
+    font-size: 1.2rem;
+}
+
+#skills button:hover{
+    padding: 15px 20px;
+}
+
+/* Project */
