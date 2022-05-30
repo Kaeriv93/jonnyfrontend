@@ -26,6 +26,7 @@ function Home(props) {
             <p>Motivated Front End Developer eager to build and maintain beautiful websites. Proficient in HTML, CSS, Javascript, plus modern libraries and frameworks.</p>
           </div>
           <Skills/>
+          <h3 id='projects'>Projects</h3>
           <Project/>
         </div>
       </div>

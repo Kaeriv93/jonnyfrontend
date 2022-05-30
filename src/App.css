@@ -6,6 +6,7 @@ body{
     text-align: center;
     font-family: 'Poppins', sans-serif;
     color: #4C4C4C;
+    background-color: #FAFAFA;
 }
 
 /* Favicon and Links */
@@ -75,3 +76,26 @@ body{
 }
 
 /* Project */
+.project-image{
+    width: 40vh;
+    height: 30vh;
+}
+
+.project-card{
+    display: inline-flex;
+    flex-direction: row;
+}
+
+.project-card p, .project-card h5{
+    font-size: .6rem;
+    width: 50%;
+    margin: 0 auto;
+    line-height: 2;
+}
+
+.project-card li, .project-card a{
+    list-style: none;
+    display: inline;
+    padding: .2em;
+    color: #2E5A88;
+}
