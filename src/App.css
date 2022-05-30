@@ -1,110 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
 body{
     display: flex;
     justify-content: center;
     text-align: center;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    color: #4C4C4C;
+    background-color: #FAFAFA;
 }
 
 /* Favicon and Links */
+
 .favicons li{
     display: inline;
     color: grey;
     font-size: 2rem;
 
 }
-.git:hover{
+.git :hover{
     color: black;
 }
-.linkedIn:hover{
+.linkedIn :hover{
     color: #0e76a8;
 }
 
 .navbar a{
     text-decoration: none;
-    float: left;
     color: grey;
+    font-size: 1.5rem;
+}
+
+.home a{
+    font-weight: 700;
+    color: #2E5A88;
+    padding: 10px;
 }
 
 .navbar a:hover{
     color: black;
 }
 
-/* Contact Form */
-input[type=text], select, textarea {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc; 
-    border-radius: 4px; 
-    box-sizing: border-box;
-    margin-top: 6px;
-    margin-bottom: 16px; 
-    resize: vertical 
-  }
-
-input[type=submit] {
-    background-color: grey;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
- }
-
-input[type=submit]:hover {
-    background-color: #0e76a8;
+.noun{
+    color:#2E5A88;
 }
 
-.footer {
-    border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 20px;
-  }
-
-/* About */
-.title{
-    font-size: 1.5rem;
-}
-
-.computer{
-    width: 25%;
-    float: left;
-    margin-right: 30px;
-    border-radius: 50%
-  }
-  
-.pc{
-    width: 25%;
-    float: right;
-    margin-right: 30px;
-    border-radius:50%;
-  }
-.skill-row{
+.about p{
     width: 50%;
-    margin: 100px auto 100px auto;
-    text-align: left;
-    line-height: 2;
-  }
-
-.mySkills{
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    grid-template-rows: 2fr 2fr;
-    grid-template-areas: 
-    'about blank'
-    'list list'
-    ;
-}
-.about-skills{
-    grid-area: about;
+    margin: 0 auto;
     line-height: 2;
 }
 
-.list-skills{
-    grid-area: list;
+/* Skills */
+#skills li{
+    list-style: none;
+    padding: 5px;
+    display: inline;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
 }
 
-.list-skills li{
-    list-style-type: disc;
-    text-align: left;
+#skills button{
+    cursor: pointer;
+    background-color: white;
+    margin: .5em;
+    padding: 10px 15px;
+    box-shadow: 2px 2px 0 0 #2E5A88;
+    border-color: #2E5A88;
+    color: #2E5A88;
+    font-size: 1.2rem;
 }
 
+#skills button:hover{
+    padding: 15px 20px;
+}
+
+/* Project */
+.project-image{
+    width: 40vh;
+    height: 30vh;
+}
+
+.project-card{
+    display: inline-flex;
+    flex-direction: row;
+}
+
+.project-card p, .project-card h5{
+    font-size: .6rem;
+    width: 50%;
+    margin: 0 auto;
+    line-height: 2;
+}
+
+.project-card li, .project-card a{
+    list-style: none;
+    display: inline;
+    padding: .2em;
+    color: #2E5A88;
+}
