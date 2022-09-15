@@ -1,8 +1,8 @@
 import { Typewriter,Cursor } from 'react-simple-typewriter'
 import Skills from '../components/Skills';
-import Project from '../components/Project';
+import Project from '../components/project/Project';
 
-function Home(props) {
+function Home() {
 
     return(
       <div>

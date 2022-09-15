@@ -1,18 +1,15 @@
 import { useState, useEffect } from "react"
 import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 
-const Project = (props)=>{
+const Project = ()=>{
 
     const URL = "https://vireak-san.herokuapp.com/";
 
-    const[projects, setProjects] = useState(null)
+    const[projects, setProjects] = useState([]);
     useEffect(()=>{
-        const getProjectsData = async()=>{
-            const response = await fetch(URL + 'projects')
-            const data = await response.json()
-            setProjects(data)
-        }
-        getProjectsData()
+        fetch(URL + 'projects')
+        .then(response => response.json())
+        .then((data) => setProjects(data))
     },[])
 
     const loaded = () =>{
